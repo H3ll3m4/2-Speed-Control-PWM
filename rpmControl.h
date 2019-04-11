@@ -16,7 +16,7 @@ public:
 	rpmControl();
 	int setSpeedInt(int speedint);
 	int updateSpeed();
-	int getSpeedSignal1(); // Get the Speed signal (speed from 3rd yellow wire) for rpm 1
+	int getSpeedSignal1();
 	int getSpeedSignal2();
 	int getSpeed();
 private:
