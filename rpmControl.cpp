@@ -19,7 +19,7 @@ int rpmControl::updateSpeed() {
 	//DutyCyle for the PWM : from 0 to 255 (full speed)
 
 	if (speedPercent != _currentSpeed) {      // if the speed has changed
-		Serial.print("Wanted Fan Speed % is now: "); // print it
+		Serial.print("Wanted Speed % is now: "); // print it
 		Serial.println(speedPercent);
 		if (speedPercent <= _speedThreshold) {
 			digitalWrite(_pinLED, LOW);
